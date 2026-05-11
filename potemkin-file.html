@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<link href="https://www.googletagmanager.com" rel="preconnect"/>
+<!-- BTN:GA4:START -->
+<script async="" src="https://www.googletagmanager.com/gtag/js?id=G-FTWLM223G7"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('set', 'allow_ad_personalization_signals', false);
+  gtag('config', 'G-FTWLM223G7');
+  gtag('config', 'G-053Z64N82F');
+</script>
+<!-- BTN:GA4:END -->
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<meta content="no-referrer-when-downgrade" name="referrer"/>
+<title>The Potemkin Client File: A Forensic Diagnostic for Bankruptcy Mill Workflows</title>
+<meta content="A 'Potemkin client file' is a file assembled on demand to satisfy a production request - never built during representation. PDF metadata exposes the assembly window. A free, vendor-neutral methodology any client can run." name="description"/>
+<meta content="potemkin file, potemkin client file, bankruptcy file fabrication, pdf metadata forensics, client file production audit, browser assembled pdf, skia pdf, pdfium, chrome print to pdf, bankruptcy mill diagnostic, rule 3.4(a) spoliation, 18 usc 1519, rule 9011" name="keywords"/>
+<link href="https://bankruptcymalpractice.org/potemkin-file.html" rel="canonical"/>
+<link href="https://bankruptcymalpractice.org/potemkin-file.html" hreflang="en" rel="alternate"/>
+<link href="/favicon.svg" rel="icon" type="image/svg+xml"/>
+<meta content="#0d1117" name="theme-color"/>
+<meta content="2026-05-11" name="last-modified"/>
+<meta content="The Potemkin Client File: A Forensic Diagnostic for Bankruptcy Mill Workflows" property="og:title"/>
+<meta content="A 'Potemkin client file' is a file assembled on demand to satisfy a production request - never built during representation. PDF metadata exposes the assembly window. A free, vendor-neutral methodology any client can run." property="og:description"/>
+<meta content="article" property="og:type"/>
+<meta content="https://bankruptcymalpractice.org/potemkin-file.html" property="og:url"/>
+<meta content="bankruptcymalpractice.org" property="og:site_name"/>
+<meta content="summary_large_image" name="twitter:card"/>
+<meta content="The Potemkin Client File: A Forensic Diagnostic" name="twitter:title"/>
+<meta content="A file assembled on demand to satisfy a production request - never built during representation. PDF metadata exposes the assembly window." name="twitter:description"/>
+<meta content="https://bankruptcymalpractice.org/og-image.svg" property="og:image"/>
+<meta content="https://bankruptcymalpractice.org/og-image.svg" name="twitter:image"/>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org", "@type": "FAQPage",
+  "mainEntity": [
+    {"@type": "Question", "name": "What is a Potemkin client file?",
+     "acceptedAnswer": {"@type": "Answer", "text": "A 'Potemkin client file' is a file assembled on demand - usually in response to a written file request or a court-ordered production - rather than maintained contemporaneously during the representation. The term references the Potemkin village: a facade constructed for inspection. The forensic signature is a PDF (or stack of PDFs) whose metadata shows it was assembled in a single short window from web-based sources, rather than a heterogeneous mix of older firm documents in their native formats."}},
+    {"@type": "Question", "name": "How do I know if my client file is a Potemkin file?",
+     "acceptedAnswer": {"@type": "Answer", "text": "Open every PDF you received from the firm and inspect its metadata (most PDF readers show this under 'File > Properties' or 'Document Properties'). Look for: (1) Creator / Producer fields naming a browser engine like 'Chrome', 'Skia/PDF', 'PDFium', 'Safari', or 'Edge' rather than 'Microsoft Word', 'Adobe Acrobat', or a legal practice-management product; (2) Creation timestamps clustered in a single short window (often under 30 minutes) shortly before the production date, rather than dates matching when the documents were originally drafted or filed; (3) ModDate equal or nearly equal to CreationDate (no editing history). If all three signals are present across most of the production, the file was assembled, not produced from records."}},
+    {"@type": "Question", "name": "Why does this matter legally?",
+     "acceptedAnswer": {"@type": "Answer", "text": "A Potemkin file production is significant under several rule clusters at once: (1) ABA Model Rule 3.4(a) - prohibits unlawfully altering, destroying, or concealing material with potential evidentiary value, including by substituting fabricated records for missing originals; (2) Model Rule 1.16(d) - requires surrender of the actual file, not a reconstruction; producing a substitute is non-compliance, not compliance; (3) Federal Rule of Bankruptcy Procedure 9011 - documents signed and filed must be supported by reasonable inquiry into the facts; a reconstructed file presented as the original can implicate this rule; (4) 18 U.S.C. Section 1519 (federal obstruction) - knowingly altering, falsifying, or fabricating records in contemplation of any federal proceeding is a criminal offense punishable by up to 20 years; bankruptcy proceedings are federal proceedings."}},
+    {"@type": "Question", "name": "Is browser-printed PDF always evidence of a Potemkin file?",
+     "acceptedAnswer": {"@type": "Answer", "text": "No. Many legitimate documents are produced through a browser's print-to-PDF function - a court-filed document downloaded from PACER, a publicly available statute, a single screenshot of a calendar entry. The diagnostic concern is the PATTERN across a complete client file production. If a firm's entire file production carries a single browser-engine fingerprint and a tight assembly window, that pattern is inconsistent with the file having been built during representation across multiple software environments. The diagnostic is signal-density, not any single PDF."}},
+    {"@type": "Question", "name": "What free tools can I use to check PDF metadata?",
+     "acceptedAnswer": {"@type": "Answer", "text": "Several free options: (1) Adobe Acrobat Reader (free) - File > Properties shows Creator, Producer, Created, Modified; (2) Any modern web browser - open the PDF and most browsers expose document properties through their developer tools or PDF viewer info panel; (3) Command-line: 'pdfinfo' (part of the free Poppler tools, available on every operating system) prints all metadata in one command; (4) 'exiftool' (free, cross-platform) prints exhaustive metadata including XMP fields; (5) PDF metadata viewers built into operating systems (right-click PDF on Windows: Properties > Details; on macOS: Get Info). For non-technical users, Acrobat Reader's File > Properties view is the simplest."}},
+    {"@type": "Question", "name": "What does a real, contemporaneous client file look like in metadata terms?",
+     "acceptedAnswer": {"@type": "Answer", "text": "A contemporaneously-maintained bankruptcy file usually shows: (1) Heterogeneous Creator/Producer fingerprints - the engagement letter may be Microsoft Word, the petition is the court's filing system or a bankruptcy software vendor (Best Case, NextChapter, etc.), email correspondence shows Outlook/Gmail print exports, hearing notes may be in PDF Expert or Adobe, scans show 'TWAIN' or scanner-specific producers; (2) Creation dates scattered across the entire representation timeline, not clustered; (3) Older PDFs often show a ModDate distinct from CreationDate, reflecting editing; (4) Documents that originated outside the firm (creditor letters, paystubs, tax returns) often retain their original metadata. Heterogeneity over time is the signature of a real working file."}},
+    {"@type": "Question", "name": "What should I do if I find these signals in my own file?",
+     "acceptedAnswer": {"@type": "Answer", "text": "Preserve everything immediately. Make a forensic copy of every file you received - copy the originals to a separate drive without opening them, since opening some files can update access timestamps. Take screenshots of the metadata fields you found. Then: (1) send a written preservation letter to the firm noting your forensic findings and demanding preservation of all original drafting, intake, and matter records; (2) file a bar complaint under your state's Rule 3.4(a) and Rule 1.16(d) equivalents; (3) if the case is in active bankruptcy, notify the U.S. Trustee assigned to your case - the USTP has independent investigative authority; (4) if damages are involved, consult a legal malpractice attorney. Most malpractice attorneys offer free initial consultations and the forensic record dramatically strengthens any case."}},
+    {"@type": "Question", "name": "Why doesn't the bar already catch this?",
+     "acceptedAnswer": {"@type": "Answer", "text": "State disciplinary bodies generally investigate in response to complaints, not proactively. PDF metadata forensics is not a routine part of bar discipline workflows. Most clients do not know that a 'complete file production' in PDF form preserves evidence of how the file was assembled. The result is that this category of non-compliance has historically been under-detected. The methodology on this page exists so any client can run the same audit a forensic expert would run - using only free tools - and document the findings before filing a complaint."}}
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Article",
+      "headline": "The Potemkin Client File: A Forensic Diagnostic for Bankruptcy Mill Workflows",
+      "description": "A 'Potemkin client file' is a file assembled on demand to satisfy a production request rather than maintained contemporaneously during representation. PDF metadata exposes the assembly window. Free, vendor-neutral methodology.",
+      "author": {"@type": "Organization", "name": "Open Bankruptcy Project"},
+      "publisher": {"@type": "Organization", "name": "Open Bankruptcy Project", "url": "https://1328f.org"},
+      "datePublished": "2026-05-11",
+      "dateModified": "2026-05-11",
+      "mainEntityOfPage": "https://bankruptcymalpractice.org/potemkin-file.html"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://bankruptcymalpractice.org"},
+        {"@type": "ListItem", "position": 2, "name": "Bankruptcy Attorney Malpractice", "item": "https://bankruptcymalpractice.org"},
+        {"@type": "ListItem", "position": 3, "name": "The Potemkin Client File", "item": "https://bankruptcymalpractice.org/potemkin-file.html"}
+      ]
+    },
+    {
+      "@type": "HowTo",
+      "name": "How to audit a client file production for Potemkin-file signals",
+      "step": [
+        {"@type": "HowToStep", "position": 1, "text": "Make a forensic copy of every PDF you received. Copy files to a separate drive without opening them; opening can update access timestamps."},
+        {"@type": "HowToStep", "position": 2, "text": "Open each PDF and check metadata. In Adobe Acrobat Reader: File > Properties. Note Creator, Producer, Created, Modified fields."},
+        {"@type": "HowToStep", "position": 3, "text": "Record the Creator/Producer fingerprint for every PDF. Watch for browser engines (Chrome, Skia/PDF, PDFium, Safari, Edge) versus desktop applications (Word, Acrobat, practice-management software)."},
+        {"@type": "HowToStep", "position": 4, "text": "Plot the Creation dates on a timeline. A real file produced over months of representation shows scattered dates. A Potemkin file shows clustering within a single short window."},
+        {"@type": "HowToStep", "position": 5, "text": "Compare ModDate to CreationDate. Documents drafted and revised should show distinct timestamps. Documents produced in a single export typically show ModDate equal or near-equal to CreationDate."},
+        {"@type": "HowToStep", "position": 6, "text": "Cross-check externally-sourced documents. Creditor letters, tax returns, and pay stubs should retain their original third-party metadata, not the firm's assembly fingerprint."},
+        {"@type": "HowToStep", "position": 7, "text": "Save screenshots of every metadata pane that shows a diagnostic signal. Preserve them with their filenames and the date of inspection."}
+      ]
+    },
+    {
+      "@type": "WebPage",
+      "name": "The Potemkin Client File: A Forensic Diagnostic",
+      "url": "https://bankruptcymalpractice.org/potemkin-file.html",
+      "speakable": {"@type": "SpeakableSpecification", "cssSelector": [".quick-answer", "h1", ".summary", "p:first-of-type"]}
+    }
+  ]
+}
+</script>
+<style>
+  :root { --bg: #0d1117; --surface: #161b22; --border: #30363d; --text: #e6edf3; --text-muted: #9eaab6; --accent: #58a6ff; --green: #3fb950; --red: #f85149; --yellow: #e3a835; }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; background: var(--bg); color: var(--text); line-height: 1.7; }
+  a { color: var(--accent); text-decoration: none; } a:hover { text-decoration: underline; }
+  a:focus-visible, button:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+  .skip-link { position: absolute; left: -9999px; top: auto; width: 1px; height: 1px; overflow: hidden; z-index: 9999; padding: 1rem; background: #238636; color: #fff; font-weight: 600; text-decoration: none; }
+  .skip-link:focus { position: fixed; top: 10px; left: 10px; width: auto; height: auto; overflow: visible; }
+  nav { background: var(--surface); border-bottom: 1px solid var(--border); padding: 0.75rem 2rem; display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 0.5rem; }
+  nav .site-name { color: #f0f6fc; font-weight: 700; font-size: 1.1rem; text-decoration: none; }
+  nav .site-name:hover { text-decoration: none; color: var(--accent); }
+  .nav-links { display: flex; gap: 1.25rem; flex-wrap: wrap; align-items: center; }
+  .nav-links a { color: var(--text-muted); font-size: 0.9rem; } .nav-links a:hover { color: var(--accent); text-decoration: none; }
+  .nav-links a.active { color: var(--accent); font-weight: 600; }
+  .hamburger { display: none; background: none; border: none; color: var(--text); font-size: 1.5rem; cursor: pointer; padding: 0.25rem; }
+  header { background: var(--surface); border-bottom: 1px solid var(--border); padding: 3rem 2rem; text-align: center; }
+  header h1 { color: #f0f6fc; font-size: 2rem; margin-bottom: 0.75rem; } header h1 .accent { color: var(--accent); }
+  header .subtitle { color: var(--text-muted); font-size: 1.05rem; max-width: 700px; margin: 0 auto; }
+  main { max-width: 820px; margin: 0 auto; padding: 2rem 1.5rem; }
+  .content-section { background: var(--surface); border: 1px solid var(--border); border-radius: 6px; padding: 2rem; margin-bottom: 1.5rem; }
+  .content-section h2 { color: #f0f6fc; font-size: 1.3rem; margin-bottom: 1rem; padding-bottom: 0.5rem; border-bottom: 1px solid var(--border); }
+  .content-section h3 { color: #f0f6fc; font-size: 1.1rem; margin: 1.5rem 0 0.75rem; }
+  .content-section p { color: var(--text); margin-bottom: 0.75rem; font-size: 0.95rem; }
+  .content-section ul, .content-section ol { margin: 0.75rem 0 0.75rem 1.5rem; color: var(--text); font-size: 0.95rem; }
+  .content-section li { margin-bottom: 0.4rem; }
+  .statute-box { background: #21262d; border-left: 3px solid var(--accent); padding: 1rem 1.25rem; border-radius: 0 6px 6px 0; margin: 1rem 0; }
+  .statute-box p { margin-bottom: 0.5rem; } .statute-box p:last-child { margin-bottom: 0; }
+  .warning-box { background: #21262d; border-left: 3px solid var(--red); padding: 1rem 1.25rem; border-radius: 0 6px 6px 0; margin: 1rem 0; }
+  .warning-box p { margin-bottom: 0.5rem; } .warning-box p:last-child { margin-bottom: 0; }
+  .yellow-box { background: #21262d; border-left: 3px solid var(--yellow); padding: 1rem 1.25rem; border-radius: 0 6px 6px 0; margin: 1rem 0; }
+  .yellow-box p { margin-bottom: 0.5rem; } .yellow-box p:last-child { margin-bottom: 0; }
+  .green-box { background: #21262d; border-left: 3px solid var(--green); padding: 1rem 1.25rem; border-radius: 0 6px 6px 0; margin: 1rem 0; }
+  .green-box p { margin-bottom: 0.5rem; } .green-box p:last-child { margin-bottom: 0; }
+  .content-section table { width: 100%; border-collapse: collapse; margin: 1rem 0; font-size: 0.9rem; }
+  .content-section th, .content-section td { padding: 0.6rem 0.75rem; text-align: left; border-bottom: 1px solid var(--border); vertical-align: top; }
+  .content-section th { color: var(--text-muted); font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.5px; font-weight: 600; }
+  .content-section code { background: #21262d; padding: 0.1rem 0.4rem; border-radius: 3px; font-size: 0.85rem; color: #e3a835; }
+  .content-section pre { background: #0d1117; border: 1px solid var(--border); padding: 0.85rem 1rem; border-radius: 6px; overflow-x: auto; margin: 0.75rem 0; font-size: 0.85rem; }
+  .content-section pre code { background: transparent; padding: 0; color: var(--text); }
+  .network-footer { background: var(--surface); border-top: 1px solid var(--border); padding: 2rem; text-align: center; margin-top: 3rem; }
+  .network-footer p { color: var(--text-muted); font-size: 0.85rem; margin-bottom: 0.5rem; }
+  .network-footer .links { display: flex; justify-content: center; flex-wrap: wrap; gap: 1rem; margin-top: 0.75rem; }
+  .network-footer .links a { color: var(--text-muted); font-size: 0.85rem; } .network-footer .links a:hover { color: var(--accent); }
+  .network-footer .disclaimer { margin-top: 1rem; font-size: 0.75rem; color: var(--text-muted); }
+  @media (max-width: 600px) {
+    header h1 { font-size: 1.5rem; } main { padding: 1.5rem 1rem; } .content-section { padding: 1.25rem; }
+    nav { padding: 0.75rem 1rem; } .hamburger { display: block; }
+    .nav-links { display: none; width: 100%; flex-direction: column; gap: 0.75rem; padding-top: 0.75rem; }
+    .nav-links.open { display: flex; }
+    .content-section table { font-size: 0.8rem; } .content-section th, .content-section td { padding: 0.5rem; }
+  }
+.breadcrumb-nav{font-size:0.85rem;color:#8b949e;padding:0.5rem 0;max-width:900px;margin:0 auto}.breadcrumb-nav a{color:#58a6ff;text-decoration:none}.breadcrumb-nav a:hover{text-decoration:underline}.breadcrumb-nav .separator{margin:0 0.5rem;color:#484f58}
+</style>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "NonprofitOrganization",
+  "name": "Open Bankruptcy Project",
+  "alternateName": "OBP",
+  "url": "https://openbankruptcyproject.org",
+  "email": "info@openbankruptcyproject.org",
+  "taxID": "41-5159631",
+  "nonprofitStatus": "Nonprofit501c3",
+  "description": "The Open Bankruptcy Project is a 501(c)(3) nonprofit providing free tools, research, and consumer guides to help people navigate the federal bankruptcy system.",
+  "address": {"@type": "PostalAddress", "streetAddress": "1000 W 100th St", "addressLocality": "Kansas City", "addressRegion": "MO", "postalCode": "64114", "addressCountry": "US"}
+}
+</script>
+</head>
+<body>
+<a class="skip-link" href="#main-content">Skip to main content</a>
+<nav aria-label="Site navigation" role="navigation">
+<a class="site-name" href="/">bankruptcymalpractice.org</a>
+<button aria-expanded="false" aria-label="Toggle navigation menu" class="hamburger" onclick="var n=this.nextElementSibling;var open=n.classList.toggle('open');this.setAttribute('aria-expanded',open);">☰</button>
+<div class="nav-links">
+<a href="/">Home</a>
+<a href="/check-your-attorney.html">Check Your Attorney</a>
+<a href="/client-file.html">Client File</a>
+<a class="active" href="/potemkin-file.html">Potemkin File</a>
+<a href="/bar-complaints.html">Bar Complaints</a>
+<a href="/fee-disgorgement.html">Fee Disgorgement</a>
+<a href="/finding-help.html">Finding Help</a>
+</div>
+</nav>
+<div class="obp-banner" style="background:#151b23;border-bottom:1px solid #252d38;padding:8px 16px;text-align:center;font-size:0.82rem;color:#7d8590;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif">
+  Part of the <a href="https://openbankruptcyproject.org" style="color:#58a6ff;text-decoration:none;font-weight:600">Open Bankruptcy Project</a> - <span data-obp-c="domains">180+</span> free domains, <span data-obp-c="pages">22,000+</span> pages, $0 hosting
+</div>
+<header>
+<h1>The <span class="accent">Potemkin Client File</span>: A Forensic Diagnostic</h1>
+<p class="subtitle">When a firm produces a client file that was assembled rather than kept, PDF metadata leaves the fingerprints. A vendor-neutral methodology any client can run with free tools.</p>
+</header>
+<main id="main-content">
+<nav aria-label="Breadcrumb" class="breadcrumb-nav"><a href="https://bankruptcymalpractice.org">Home</a><span class="separator">›</span><span>The Potemkin Client File</span></nav>
+
+<div class="content-section">
+<h2>Quick Answer</h2>
+<p>A <strong>Potemkin client file</strong> is a client file assembled on demand &mdash; usually in response to a written file request or a court-ordered production &mdash; rather than maintained contemporaneously during the representation. The term references the Potemkin village: a facade built for inspection.</p>
+<p>The diagnostic is in the PDF metadata. A file genuinely maintained across months of representation carries heterogeneous fingerprints: Microsoft Word, the court's electronic filing system, scanner output, email print exports, bankruptcy practice software. A file assembled in one sitting carries a single browser-engine fingerprint &mdash; <code>Chrome</code>, <code>Skia/PDF</code>, <code>PDFium</code>, <code>Safari</code>, or <code>Edge</code> &mdash; and creation timestamps clustered in a single short window.</p>
+<div class="green-box"><p><strong>Why this page exists:</strong> Any client can run this audit using free tools. The methodology is vendor-neutral, deterministic, and reproducible. The result is documentary evidence that does not depend on expert testimony to interpret.</p></div>
+</div>
+
+<div class="content-section">
+<h2>What "Potemkin File" Means in Practice</h2>
+<p>In a properly-run representation, a client file is built as work happens. The engagement letter is signed in Word and saved. Schedules are drafted in bankruptcy software (Best Case, NextChapter, etc.) and filed through the court's electronic filing system. Hearing notes are taken in the firm's matter-management product. Correspondence accumulates in an email client. Creditor letters arrive in paper or PDF from third parties and get scanned. Every document carries its own origin fingerprint, and creation timestamps are scattered across the timeline of the representation.</p>
+<p>A Potemkin file inverts this. When the firm receives the request, no real file exists in the form requested. So a staffer opens a browser, navigates to PACER (or another public source), prints filed documents to PDF using the browser's print function, and stacks them together as a "production." Every PDF in the stack carries the same browser-engine signature. The creation timestamps cluster within minutes of each other. The original drafts, the intake notes, the email correspondence, the worksheets, the supervisor reviews &mdash; none of which exist in a unified file &mdash; are silently omitted.</p>
+<p>The result looks like a file production. The metadata says it is a fresh export of public records, not a record of the representation.</p>
+</div>
+
+<div class="content-section">
+<h2>The Legal Stakes</h2>
+<p>A Potemkin file production is not a clerical issue. It implicates multiple rule clusters at once, each with independent consequences:</p>
+
+<h3>ABA Model Rule 3.4(a) - Fairness to Opposing Party and Counsel</h3>
+<div class="statute-box"><p><strong>Rule 3.4(a):</strong> "A lawyer shall not . . . unlawfully obstruct another party's access to evidence or unlawfully alter, destroy or conceal a document or other material having potential evidentiary value."</p></div>
+<p>Substituting fabricated assembly for missing originals &mdash; or concealing the absence of an original file by producing a substitute that looks complete &mdash; falls within Rule 3.4(a)'s prohibition. Every state has a substantively identical rule.</p>
+
+<h3>ABA Model Rule 1.16(d) - Surrender of Client Property</h3>
+<p>Rule 1.16(d) requires surrender of <em>the file</em>, not a reconstruction of it. Producing a substitute is non-compliance, not compliance. See our <a href="/client-file.html">client file guide</a> for the full Rule 1.16(d) framework.</p>
+
+<h3>Federal Rule of Bankruptcy Procedure 9011</h3>
+<p>Documents signed and filed in bankruptcy court must be supported by reasonable inquiry into the facts. A reconstructed file presented as the original &mdash; particularly one used to support filed pleadings &mdash; can implicate Rule 9011's certification standard.</p>
+
+<h3>18 U.S.C. Section 1519 (federal obstruction)</h3>
+<div class="warning-box"><p><strong>18 U.S.C. Section 1519:</strong> "Whoever knowingly alters, destroys, mutilates, conceals, covers up, falsifies, or makes a false entry in any record . . . with the intent to impede, obstruct, or influence the investigation or proper administration of any matter within the jurisdiction of any department or agency of the United States . . . shall be fined under this title, imprisoned not more than 20 years, or both."</p></div>
+<p>Bankruptcy proceedings are matters within federal jurisdiction. Fabricating records "in contemplation of" a federal proceeding triggers Section 1519. This is a criminal statute. The U.S. Trustee Program and the Department of Justice have prosecutorial authority.</p>
+
+<h3>11 U.S.C. Section 329 (fee review)</h3>
+<p>A firm that cannot produce a contemporaneous file documenting the work performed has difficulty defending the fees it was paid for that work. See <a href="https://section329.org/" rel="noopener" target="_blank">section329.org</a> for the fee-disgorgement framework.</p>
+</div>
+
+<div class="content-section">
+<h2>The Forensic Fingerprints</h2>
+<p>Three signals, in combination, distinguish a Potemkin file from a real one:</p>
+
+<h3>1. Browser-engine Creator/Producer fields</h3>
+<p>Every PDF carries metadata identifying the software that created it. Documents produced through a web browser's "print to PDF" function carry distinctive signatures:</p>
+<table>
+<thead><tr><th>Browser</th><th>Typical Creator</th><th>Typical Producer</th></tr></thead>
+<tbody>
+<tr><td>Google Chrome</td><td>Chrome (version)</td><td>Skia/PDF m(version)</td></tr>
+<tr><td>Microsoft Edge</td><td>Microsoft Edge (version)</td><td>Skia/PDF m(version)</td></tr>
+<tr><td>Mozilla Firefox</td><td>Mozilla/5.0 (engine string)</td><td>PDF Library or built-in</td></tr>
+<tr><td>Safari (macOS)</td><td>Safari (version) or WebKit</td><td>WebKit or CoreGraphics</td></tr>
+<tr><td>Embedded PDF viewer (PDFium)</td><td>(various)</td><td>PDFium</td></tr>
+</tbody>
+</table>
+<p>By contrast, documents drafted in a firm typically carry Producer fields like <code>Microsoft® Word (version)</code>, <code>Adobe Acrobat (version)</code>, or bankruptcy practice products. Court-filed documents downloaded from PACER carry the court's filing-system fingerprint. Scanned documents carry scanner-vendor producers (TWAIN drivers, Canon/HP/Brother). Heterogeneity across these fingerprints is the signature of an actual working file.</p>
+
+<h3>2. Tight assembly window in creation timestamps</h3>
+<p>Plot the <code>CreationDate</code> for every PDF in the production on a timeline. A file that was built across months of representation shows scattered timestamps spanning the engagement. A Potemkin file shows clustering within a narrow window &mdash; sometimes under an hour &mdash; that immediately precedes the production date.</p>
+<div class="warning-box"><p>A 23-minute assembly window for a multi-year representation is not technically impossible if everything happens to be re-exported at once for some legitimate reason. But the burden falls on the producer to explain why an entire representation's worth of documents was re-generated immediately before production.</p></div>
+
+<h3>3. ModDate ≈ CreationDate</h3>
+<p>PDFs that have been edited over time typically show a <code>ModDate</code> distinct from the <code>CreationDate</code>. Documents produced in a single export from another source typically show <code>ModDate</code> equal to or near-equal to <code>CreationDate</code>. Across an entire production, a uniform <code>ModDate = CreationDate</code> pattern is consistent with single-session generation.</p>
+</div>
+
+<div class="content-section">
+<h2>What a Real, Contemporaneous File Looks Like</h2>
+<p>For contrast, here is the metadata signature a legitimately-maintained bankruptcy file typically shows:</p>
+<ul>
+<li><strong>Engagement letter:</strong> <code>Microsoft Word</code> producer, creation date matching the start of representation, ModDate showing client signature event.</li>
+<li><strong>Voluntary petition and schedules:</strong> producer is the bankruptcy practice product (Best Case, NextChapter, ECF) or the court filing system; creation dates match the actual filing event.</li>
+<li><strong>Plan documents and amendments:</strong> same producer family, creation dates corresponding to drafting and filing events.</li>
+<li><strong>Trustee correspondence:</strong> mixture of producers &mdash; the firm's outgoing emails carry one signature; trustee responses carry the trustee's filing-system or office producer.</li>
+<li><strong>Creditor letters:</strong> scanned-document signatures; creditor exhibits often retain Acrobat or third-party producers.</li>
+<li><strong>Pay stubs and tax returns:</strong> typically scanned or downloaded from third-party payroll/IRS systems; carry third-party producers.</li>
+<li><strong>Hearing notes:</strong> often handwritten and scanned, or typed in the firm's matter-management product.</li>
+<li><strong>Internal worksheets (means test scratch, plan feasibility, etc.):</strong> producer reflects whatever spreadsheet or analytical tool the firm uses.</li>
+</ul>
+<p>Heterogeneity over time is the signature of representation. Uniformity in a single short window is the signature of assembly.</p>
+</div>
+
+<div class="content-section">
+<h2>How to Audit Your Own File (Step by Step)</h2>
+<ol>
+<li><strong>Preserve everything immediately.</strong> Make a forensic copy of every PDF to a separate drive without opening the originals. Opening a file can update access timestamps. Keep originals untouched.</li>
+<li><strong>Inspect metadata on each PDF.</strong> Open the copy in Adobe Acrobat Reader (free). Use <code>File &gt; Properties</code>. Record the <code>Creator</code>, <code>Producer</code>, <code>Created</code>, and <code>Modified</code> fields. A spreadsheet works well for this.</li>
+<li><strong>Plot the Creation dates on a timeline.</strong> Real files span the representation. Potemkin files cluster within hours.</li>
+<li><strong>Group by Producer.</strong> Count how many distinct Producer fingerprints appear. A real bankruptcy file production typically shows 5-15+ distinct Producers across the file. A Potemkin file shows 1-3.</li>
+<li><strong>Spot-check externally-sourced documents.</strong> Creditor letters, IRS transcripts, pay stubs, and bank statements should carry <em>their own</em> third-party producers. If everything in the production carries the firm's browser fingerprint, externally-sourced documents have been re-printed through the same browser &mdash; not preserved in native format.</li>
+<li><strong>Compare to your expectations.</strong> Did you sign an engagement letter the firm drafted in Word? It should appear in the production with a Word producer. Did the firm email you? Those emails should appear in their native email-export form. Documents missing from the production tell you what the firm did not preserve.</li>
+<li><strong>Save screenshots of every diagnostic metadata pane.</strong> Filename, full metadata, and date of inspection. These become exhibits.</li>
+</ol>
+</div>
+
+<div class="content-section">
+<h2>Free Tools for the Audit</h2>
+<p>You do not need expensive forensic software. The signal is in fields every PDF reader can display:</p>
+<ul>
+<li><strong>Adobe Acrobat Reader (free, all platforms):</strong> <code>File &gt; Properties</code> shows Creator, Producer, Created, Modified. Easiest for non-technical users.</li>
+<li><strong>Built-in OS tools:</strong> Windows right-click <code>Properties &gt; Details</code>; macOS Finder <code>Get Info</code>. Limited but free and zero-install.</li>
+<li><strong>Web browsers:</strong> open the PDF and check the viewer's document info pane (varies by browser).</li>
+<li><strong>Command-line: <code>pdfinfo</code></strong> (part of Poppler, free, available on Windows/macOS/Linux). One command prints all metadata: <code>pdfinfo your-file.pdf</code>.</li>
+<li><strong>Command-line: <code>exiftool</code></strong> (free, cross-platform). Exhaustive metadata including XMP fields: <code>exiftool your-file.pdf</code>.</li>
+</ul>
+<div class="green-box"><p><strong>Tip:</strong> If you have a folder of PDFs and a command line, this batch command writes every PDF's metadata to a text file you can review: <code>for f in *.pdf; do echo "=== $f ==="; pdfinfo "$f"; done &gt; metadata.txt</code> (or the equivalent in PowerShell on Windows).</p></div>
+</div>
+
+<div class="content-section">
+<h2>Common Innocent Explanations - and Why They Usually Fail at Scale</h2>
+<p>A firm faced with these findings will sometimes offer innocent explanations. They are worth considering:</p>
+
+<h3>"We re-exported everything to consolidate the file."</h3>
+<p>Sometimes a firm consolidates documents into a single output for a production. But re-export to PDF does not <em>have</em> to use the browser print function &mdash; firms with practice-management software typically have built-in export tools that preserve the original producers in the XMP metadata. Browser re-export specifically destroys the original signatures. The choice of method is significant.</p>
+
+<h3>"We always print everything through the browser."</h3>
+<p>Possible for very small firms. But this defense undermines the firm's competence claim: it concedes that the firm never had a file in any other form, which in a complex bankruptcy representation is itself a problem under Model Rule 1.1 (competence) and Rule 1.3 (diligence).</p>
+
+<h3>"PACER documents naturally carry browser fingerprints."</h3>
+<p>PACER documents downloaded directly carry PACER's filing-system fingerprint, not a browser's. Documents that carry a browser fingerprint were viewed in the browser first and printed to PDF &mdash; an extra, post-hoc step. Documents whose <em>original</em> source was PACER but that now carry only browser fingerprints have lost their authenticating chain.</p>
+
+<h3>"The dates cluster because we exported everything for you at once."</h3>
+<p>This explanation accepts the diagnostic. The clustering proves the file was generated for production, not maintained during representation. That is exactly the Potemkin-file claim.</p>
+</div>
+
+<div class="content-section">
+<h2>What to Do If You Find These Signals</h2>
+<ol>
+<li><strong>Preserve and document.</strong> Forensic copies, metadata screenshots, dated inspection notes.</li>
+<li><strong>Send a preservation letter to the firm</strong> noting your forensic findings and demanding preservation of all original drafting files, intake records, matter-management notes, email correspondence, and internal worksheets. See our <a href="/spoliation-duty.html">spoliation duty</a> page.</li>
+<li><strong>File a bar complaint</strong> under your state's Rule 3.4(a), Rule 1.16(d), and Rule 1.1 equivalents. The forensic findings give the disciplinary body a deterministic record to evaluate. See our <a href="/bar-complaints.html">bar complaints guide</a>.</li>
+<li><strong>If the case is still active in bankruptcy court, notify the U.S. Trustee</strong> assigned to your case. The USTP has independent investigative authority and can refer matters to the Department of Justice under 18 U.S.C. Section 1519 in appropriate cases.</li>
+<li><strong>Consult a legal malpractice attorney.</strong> The forensic record dramatically strengthens any case. Most malpractice attorneys offer free initial consultations and work on contingency.</li>
+<li><strong>Consider a Section 329 fee review.</strong> A firm that cannot produce a contemporaneous file documenting its work has difficulty defending the fees it was paid. See <a href="https://section329.org/" rel="noopener" target="_blank">section329.org</a>.</li>
+</ol>
+</div>
+
+<div class="content-section">
+<h2>Why the Bar Doesn't Already Catch This</h2>
+<p>State disciplinary bodies generally investigate in response to complaints, not proactively. PDF metadata forensics is not a routine part of bar discipline workflows. Most clients do not know that a "complete file production" in PDF form preserves evidence of how the file was assembled.</p>
+<p>The result is that this category of non-compliance has historically been under-detected. A firm operating a high-volume, paralegal-driven workflow that never builds individual client files can avoid disciplinary scrutiny &mdash; not because the conduct is permissible, but because the diagnostic is not yet standard practice.</p>
+<p>This page exists so any client can run the same audit a forensic expert would run, using only free tools, and document findings before filing a complaint. The methodology is intentionally public and reproducible.</p>
+</div>
+
+<div class="content-section" style="border-left:3px solid #58a6ff">
+<p><strong>Related guides on this site:</strong> <a href="/client-file.html">why won't my lawyer give me my client file</a> · <a href="/spoliation-duty.html">spoliation duty</a> · <a href="/bar-complaints.html">bar complaints</a> · <a href="/check-your-attorney.html">check your attorney</a> · <a href="/damages.html">malpractice damages</a></p>
+<p style="margin-top:0.75rem"><strong>External authorities:</strong> <a href="https://www.americanbar.org/groups/professional_responsibility/publications/model_rules_of_professional_conduct/rule_3_4_fairness_to_opposing_party_counsel/" rel="noopener" target="_blank">ABA Model Rule 3.4</a> · <a href="https://www.law.cornell.edu/uscode/text/18/1519" rel="noopener" target="_blank">18 U.S.C. § 1519</a> · <a href="https://www.law.cornell.edu/rules/frbp/rule_9011" rel="noopener" target="_blank">FRBP 9011</a> · <a href="https://www.justice.gov/ust" rel="noopener" target="_blank">U.S. Trustee Program</a></p>
+</div>
+
+</main>
+<footer class="network-footer" role="contentinfo">
+<p style="color:#e6edf3;margin:0 0 0.5rem;font-size:0.95rem">Free, open-source bankruptcy transparency. No ads. No affiliate links. Supported by <a href="https://openbankruptcyproject.org/donate.html">donations</a>.</p>
+<p><strong>Part of the Open Bankruptcy Project</strong></p>
+<p>A project of the Open Bankruptcy Project, a 501(c)(3) public charity (EIN 41-5159631)</p>
+<p>Real information, no strings.</p>
+<div class="links">
+<a href="https://automaticstay.org?utm_source=bankruptcymalpractice.org&amp;utm_medium=referral&amp;utm_campaign=btn-network">automaticstay.org</a>
+<a href="https://meanstest.org?utm_source=bankruptcymalpractice.org&amp;utm_medium=referral&amp;utm_campaign=btn-network">meanstest.org</a>
+<a href="https://341meeting.org?utm_source=bankruptcymalpractice.org&amp;utm_medium=referral&amp;utm_campaign=btn-network">341meeting.org</a>
+<a href="https://523a.org?utm_source=bankruptcymalpractice.org&amp;utm_medium=referral&amp;utm_campaign=btn-network">523a.org</a>
+<a href="https://727a8.com?utm_source=bankruptcymalpractice.org&amp;utm_medium=referral&amp;utm_campaign=btn-network">727a8.com</a>
+<a href="https://prosedebtors.org?utm_source=bankruptcymalpractice.org&amp;utm_medium=referral&amp;utm_campaign=btn-network">prosedebtors.org</a>
+<a href="https://howtofilebankruptcy.org?utm_source=bankruptcymalpractice.org&amp;utm_medium=referral&amp;utm_campaign=btn-network">howtofilebankruptcy.org</a>
+<a href="https://github.com/sponsors/openbankruptcyproject" onmouseout="this.style.background='#bf3989'" onmouseover="this.style.background='#9e2c6f'" style="display:inline-block;background:#bf3989;color:#fff;padding:0.6rem 1.8rem;border-radius:6px;font-weight:600;font-size:0.95rem;text-decoration:none;transition:background 0.2s">♥ Sponsor</a>
+<a href="https://github.com/ilikemath9999/bankruptcy-discharge-screener">GitHub</a>
+</div>
+<p class="disclaimer">This site provides general information only and does not constitute legal advice. No attorney-client relationship is created. Consult a licensed attorney for advice on your specific situation.</p>
+<p style="margin-top:0.75rem;font-size:0.8rem"><a href="https://openbankruptcyproject.org/privacy.html" style="color:#7d8590;text-decoration:none">Privacy</a> | <a href="https://openbankruptcyproject.org/terms.html" style="color:#7d8590;text-decoration:none">Terms</a> | <a href="https://openbankruptcyproject.org" style="color:#7d8590;text-decoration:none">Open Bankruptcy Project</a></p>
+</footer>
+<script defer="" src="/btn-engage.js"></script>
+<script defer="" src="https://openbankruptcyproject.org/btn-search.js"></script>
+<script data-obp-counter-loader>(function(){var urls=["/data/counters.json","https://1328f.com/data/counters.json"];function tryNext(i){if(i>=urls.length)return;fetch(urls[i]).then(function(r){if(!r.ok)throw 0;return r.json()}).then(function(d){document.querySelectorAll("[data-obp-c]").forEach(function(e){var v=d[e.getAttribute("data-obp-c")];if(v)e.textContent=v})}).catch(function(){tryNext(i+1)})}tryNext(0)})();</script>
+</body>
+</html>
